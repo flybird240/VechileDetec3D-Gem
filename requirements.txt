@@ -1,0 +1,8 @@
+pandas
+numpy               1.24.4
+opencv-python       4.8.0.74
+PyQt5               5.15.9
+pyqt5-tools         5.15.9.3.3
+pyswarm             0.6
+scipy               1.11.1
+pywin32             306

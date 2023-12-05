@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1408</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_AftShow">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>10</y>
+      <width>690</width>
+      <height>490</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>测试实例</string>
+    </property>
+    <widget class="QLabel" name="label_AftPicShow">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>670</width>
+       <height>460</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_PreShow">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>690</width>
+      <height>490</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>输入实例</string>
+    </property>
+    <widget class="QLabel" name="label_PrePicShow">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>670</width>
+       <height>460</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>361</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>车辆3D检测</string>
+    </property>
+    <widget class="QLabel" name="label_datatype">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>选择数据类型：</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_SelectData">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>读入图像</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>读入本地视频</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3Ddetect">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>71</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>检测</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_datatype_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>二维检测方式：</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_SelectDetect">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>70</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Yolov3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Yolov4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MaskRcnn</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>510</y>
+      <width>691</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>车辆逆投影识别</string>
+    </property>
+    <widget class="QPushButton" name="pushButton2">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>60</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预留按钮2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton1">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>60</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预留按钮1</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1408</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>comboBox_SelectData</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onbuttonclick_selectDataType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>192</x>
+     <y>573</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>632</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3Ddetect</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onbuttonclick_videodisplay()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>264</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>553</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onbuttonclick_picdetect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>839</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>588</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onbuttonclick_videodetect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>949</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>504</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_SelectDetect</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onbuttonclick_selectDetect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>156</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>517</x>
+     <y>657</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>clicked()</signal>
+  <slot>onbuttonclick_picdetect()</slot>
+  <slot>onbuttonclick_videodetect()</slot>
+  <slot>onbuttonclick_selectDataType()</slot>
+  <slot>onbuttonclick_videodisplay()</slot>
+  <slot>onbuttonclick_videopause()</slot>
+  <slot>onbuttonclick_selectDetect()</slot>
+ </slots>
+</ui>
